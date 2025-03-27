@@ -143,7 +143,7 @@ export class MainMenu extends Scene {
 
     git.btn.on("pointerup", () => {
       window.open(
-        "https://github.com/AuRa123456",
+        "https://github.com/AuRa123456/overflowing-palette",
         "GitHubProject"
       );
     });
