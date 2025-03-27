@@ -1,0 +1,157 @@
+[
+  {
+    "path": "assets/data",
+    "files": [
+      {
+        "type": "json",
+        "key": "config",
+        "url": "config.json"
+      },
+      {
+        "type": "json",
+        "key": "localization",
+        "url": "localization.json"
+      },
+      {
+        "type": "json",
+        "key": "levels",
+        "url": "levels.json"
+      }
+    ]
+  },
+  {
+    "path": "assets/sound",
+    "files": [
+      {
+        "type": "audio",
+        "key": "mouseOver",
+        "url": "mouseOver.mp3"
+      },
+      {
+        "type": "audio",
+        "key": "reset",
+        "url": "reset.mp3"
+      },
+      {
+        "type": "audio",
+        "key": "colorSelect",
+        "url": "colorSelect.mp3"
+      },
+      {
+        "type": "audio",
+        "key": "tileFlip",
+        "url": "tileFlip.mp3"
+      }
+    ]
+  },
+  {
+    "path": "assets/shaders",
+    "files": [
+      {
+        "type": "glsl",
+        "key": "base",
+        "url": "base.glsl"
+      },
+      {
+        "type": "glsl",
+        "key": "distortion",
+        "url": "distortion.glsl"
+      }
+    ]
+  },
+  {
+    "path": "assets/textures/shaders",
+    "files": [
+      {
+        "type": "image",
+        "key": "cellnoise_d",
+        "url": "cellnoise_d.webp"
+      },
+      {
+        "type": "image",
+        "key": "cellnoise_center",
+        "url": "cellnoise_center.webp"
+      }
+    ]
+  },
+  {
+    "path": "assets/icons/",
+
+    "files": [
+      {
+        "type": "image",
+        "key": "swapAll",
+        "url": "swapAll.png"
+      },
+      {
+        "type": "image",
+        "key": "swapLine",
+        "url": "swapLine.png"
+      }
+    ]
+  },
+  {
+    "path": "assets/textures/",
+
+    "files": [
+      {
+        "type": "atlas",
+        "key": "uiatlas",
+        "textureURL": "uiatlas.webp",
+        "atlasURL": "uiatlas.json"
+      },
+
+      {
+        "type": "image",
+        "key": "grid_border",
+        "url": "grid_border.png"
+      },
+      {
+        "type": "image",
+        "key": "MainBtnActive",
+        "url": "MainBtnActive.png"
+      },
+      {
+        "type": "image",
+        "key": "btnRound",
+        "url": "btnRound.png"
+      },
+      {
+        "type": "image",
+        "key": "btnRoundOver",
+        "url": "btnRoundOver.png"
+      },
+      {
+        "type": "image",
+        "key": "MainBtnActiveCircle",
+        "url": "MainBtnActiveCircle.png"
+      }
+    ]
+  },
+  {
+    "path": "assets/textures/backgrounds",
+
+    "files": [
+      {
+        "type": "image",
+        "key": "bg1",
+        "url": "bg1.webp"
+      },
+      {
+        "type": "image",
+        "key": "bg2",
+        "url": "bg2.webp"
+      },
+      {
+        "type": "image",
+        "key": "bg3",
+        "url": "bg3.webp"
+      },
+      {
+        "type": "image",
+        "key": "bg4",
+        "url": "bg4.webp"
+      }
+    ]
+  }
+]

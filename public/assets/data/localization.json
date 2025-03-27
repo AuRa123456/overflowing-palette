@@ -1,0 +1,389 @@
+{
+  "meta": {
+    "langsAvailable": [
+      {
+        "key": "en",
+        "name": "English"
+      },
+      {
+        "key": "od",
+        "name": "ଓଡ଼ିଆ"
+      },
+      {
+        "key": "hi",
+        "name": "Hindi"
+      }
+    ]
+  },
+  "langs": {
+    "en": {
+      "previewBlock": {
+        "preview": "Preview",
+        "author": "Author",
+        "moves": "Moves",
+        "gridSize": "Grid size",
+        "targetColor": "Target Color",
+        "cleared": "CLEARED",
+        "time": "Time",
+        "timeDefault": "A long time ago"
+      },
+      "endlessZen": {
+        "folderName": "Grid Options",
+        "columnsCount": "Columns",
+        "rowsCount": "Rows",
+        "colorsCount": "Colors count",
+        "difficulty": "Difficulty",
+        "difficulties": [
+          "Easy",
+          "Medium",
+          "Hard",
+          "Mess"
+        ]
+      },
+      "mainMenu": {
+        "startBtn": "Start",
+        "backBtn": "Back",
+        "selectLevel": "Select Level",
+        "endlessZen": "Endless Zen",
+        "createLevel": "Create Level",
+        "options": "Options",
+        "gitHub": "Open Docs\n (GitHub)"
+      },
+      "game": {
+        "ui": {
+          "mode": "Mode:Editor",
+          "movesRemain": "Remaining Moves:",
+          "movesUsed": "Moves Used:",
+          "targetColor": "Turn all the blocks into",
+          "targetColorEditor": "Target color:",
+          "movesCount": "Moves count:",
+          "resetBtn": "Reset",
+          "export": "Export",
+          "tools": "Tools"
+        },
+        "tools": {
+          "verticalSwap": "Vertical Swap",
+          "horizontalSwap": "Horizontal Swap",
+          "allwaySwap": "All Way Swap"
+        }
+      },
+      "levelEditor": {
+        "folderName": "Grid Options",
+        "gridColumns": "Columns:",
+        "gridRows": "Rows:",
+        "gridColor": "Fill Color"
+      },
+      "resultScreen": {
+        "win": "Level Complete",
+        "time": "Time:",
+        "btnMain": "Main Menu",
+        "btnNext": "Next Level",
+        "btnShare": "Share",
+        "movesUsed": "Moves used"
+      },
+      "options": {
+        "btnSave": "Save",
+        "btnReset": "Reset",
+        "tabs": {
+          "general": "General",
+          "colors": "Colors",
+          "gameplay": "Gameplay"
+        },
+        "colorsTab": {
+          "folderName": "Colors customization"
+        },
+        "generalTab": {
+          "languageBlock": "Text Language",
+          "languageSelection": "Language Selection",
+          "background": "Background",
+          "image": "Image",
+          "distortion": "Distortion",
+          "overlay": "Overlay"
+        },
+        "gameplayTab": {
+          "animationSpeed": "Animation Speed",
+          "folderName": "Grid Options",
+          "highlightIntensity": {
+            "text": "Highlight Intensity",
+            "options": [
+              "Normal",
+              "Strong"
+            ]
+          },
+          "fluidColors": {
+            "text": "Fluid Colors",
+            "options": [
+              "Off",
+              "On"
+            ]
+          },
+          "soundVolume": "Sound volume"
+        },
+        "defaultToggle": [
+          "Off",
+          "On"
+        ]
+      },
+      "import": "Import",
+      "exportBlock": {
+        "title": "EXPORT LEVEL",
+        "switch": {
+          "string": "By string",
+          "json": "By JSON"
+        },
+        "folders": {
+          "string": "Export as string",
+          "json": "Export as JSON"
+        },
+        "cancelBtn": "Cancel",
+        "copy": "Copy to clipboard"
+      }
+    },
+    "od": {
+      "previewBlock": {
+        "preview": "ପୂର୍ବାବଲୋକନ",
+        "author": "ଲେଖକ",
+        "moves": "ଗତି",
+        "gridSize": "ଗ୍ରୀଡ୍ ଆକାର",
+        "targetColor": "ଲକ୍ଷ୍ୟ ରଙ୍ଗ",
+        "cleared": "ସଫଳ ହେଲା",
+        "time": "ସମୟ",
+        "timeDefault": "ଏକ ଦୀର୍ଘ ସମୟ ତଳେ"
+      },
+      "endlessZen": {
+        "folderName": "ଗ୍ରୀଡ୍ ବିକଳ୍ପ",
+        "columnsCount": "ସ୍ତମ୍ଭଗୁଡ଼ିକ",
+        "rowsCount": "ସାରିଗୁଡ଼ିକ",
+        "colorsCount": "ରଙ୍ଗ ସଂଖ୍ୟା",
+        "difficulty": "ଅସୁବିଧା ସ୍ତର",
+        "difficulties": [
+          "ସହଜ",
+          "ମଧ୍ୟମ",
+          "କଠିନ",
+          "ଅସମ୍ଭବ"
+        ]
+      },
+      "mainMenu": {
+        "startBtn": "ଆରମ୍ଭ",
+        "backBtn": "ପଛକୁ",
+        "selectLevel": "ସ୍ତର ବାଛନ୍ତୁ",
+        "endlessZen": "ଅସୀମ ଶାନ୍ତି",
+        "createLevel": "ନୂତନ ସ୍ତର ସୃଷ୍ଟି",
+        "options": "ବିକଳ୍ପ",
+        "gitHub": "ଖୋଲନ୍ତୁ ଡକ୍ସ\n (GitHub)"
+      },
+      "game": {
+        "ui": {
+          "mode": "ମୋଡ଼: ସମ୍ପାଦକ",
+          "movesRemain": "ଅବଶିଷ୍ଟ ଗତି:",
+          "movesUsed": "ବ୍ୟବହୃତ ଗତି:",
+          "targetColor": "ସମସ୍ତ ଗ୍ରୀଡ୍ କୁ ଏହି ରଙ୍ଗରେ ପରିବର୍ତ୍ତନ କରନ୍ତୁ",
+          "targetColorEditor": "ଲକ୍ଷ୍ୟ ରଙ୍ଗ:",
+          "movesCount": "ଗତି ସଂଖ୍ୟା:",
+          "resetBtn": "ପୁନଃସେଟ୍",
+          "export": "ନିର୍ଯ୍ୟାତ",
+          "tools": "ସାଧନଗୁଡ଼ିକ"
+        },
+        "tools": {
+          "verticalSwap": "ଉଭୟ ଦିଗର ଦଳିବା",
+          "horizontalSwap": "ଆଡ଼କୁ ଦଳିବା",
+          "allwaySwap": "ସମସ୍ତ ଦିଗରେ ଦଳିବା"
+        }
+      },
+      "levelEditor": {
+        "folderName": "ଗ୍ରୀଡ୍ ବିକଳ୍ପ",
+        "gridColumns": "ସ୍ତମ୍ଭ:",
+        "gridRows": "ସାରି:",
+        "gridColor": "ପୂର୍ଣ୍ଣ ରଙ୍ଗ"
+      },
+      "resultScreen": {
+        "win": "ସ୍ତର ସଫଳ ହେଲା",
+        "time": "ସମୟ:",
+        "btnMain": "ମୁଖ୍ୟ ମେନୁ",
+        "btnNext": "ପରବର୍ତ୍ତୀ ସ୍ତର",
+        "btnShare": "ସେୟାର",
+        "movesUsed": "ବ୍ୟବହୃତ ଗତି"
+      },
+      "options": {
+        "btnSave": "ସଂରକ୍ଷଣ",
+        "btnReset": "ପୁନଃସେଟ୍",
+        "tabs": {
+          "general": "ସାଧାରଣ",
+          "colors": "ରଙ୍ଗ",
+          "gameplay": "ଖେଳ ଶୈଳୀ"
+        },
+        "colorsTab": {
+          "folderName": "ରଙ୍ଗ କଷ୍ଟମାଇଜେସନ୍"
+        },
+        "generalTab": {
+          "languageBlock": "ଭାଷା",
+          "languageSelection": "ଭାଷା ବାଛନ୍ତୁ",
+          "background": "ପୃଷ୍ଠଭୂମି",
+          "image": "ଛବି",
+          "distortion": "ବିକୃତି",
+          "overlay": "ଓଭରଲେ"
+        },
+        "gameplayTab": {
+          "animationSpeed": "ଏନିମେସନ୍ ଗତି",
+          "folderName": "ଗ୍ରୀଡ୍ ବିକଳ୍ପ",
+          "highlightIntensity": {
+            "text": "ହାଇଲାଇଟ୍ ତିବ୍ରତା",
+            "options": [
+              "ସାଧାରଣ",
+              "ତିବ୍ର"
+            ]
+          },
+          "fluidColors": {
+            "text": "ପ୍ରବାହମାନ ରଙ୍ଗ",
+            "options": [
+              "ବନ୍ଦ",
+              "ଚାଲୁ"
+            ]
+          },
+          "soundVolume": "ଧ୍ୱନି ଭଲ୍ୟୁମ୍"
+        },
+        "defaultToggle": [
+          "ବନ୍ଦ",
+          "ଚାଲୁ"
+        ]
+      },
+      "import": "ଆମଦାନି",
+      "exportBlock": {
+        "title": "ସ୍ତର ନିର୍ଯ୍ୟାତ",
+        "switch": {
+          "string": "ଷ୍ଟ୍ରିଂ ଦ୍ୱାରା",
+          "json": "JSON ଦ୍ୱାରା"
+        },
+        "folders": {
+          "string": "ଷ୍ଟ୍ରିଂ ଭାବେ ନିର୍ଯ୍ୟାତ",
+          "json": "JSON ଭାବେ ନିର୍ଯ୍ୟାତ"
+        },
+        "cancelBtn": "ବାତିଲ୍",
+        "copy": "କ୍ଲିପବୋର୍ଡ କୁ କପି କରନ୍ତୁ"
+      }
+    },
+    "hi": {
+      "previewBlock": {
+        "preview": "पूर्वावलोकन",
+        "author": "लेखक",
+        "moves": "चालें",
+        "gridSize": "ग्रिड आकार",
+        "targetColor": "लक्ष्य रंग",
+        "cleared": "साफ़ हो गया",
+        "time": "समय",
+        "timeDefault": "बहुत समय पहले"
+      },
+      "endlessZen": {
+        "folderName": "ग्रिड विकल्प",
+        "columnsCount": "स्तंभों की संख्या",
+        "rowsCount": "पंक्तियों की संख्या",
+        "colorsCount": "रंगों की संख्या",
+        "difficulty": "कठिनाई",
+        "difficulties": [
+          "आसान",
+          "मध्यम",
+          "कठिन",
+          "अव्यवस्थित"
+        ]
+      },
+      "mainMenu": {
+        "startBtn": "प्रारंभ करें",
+        "backBtn": "वापस",
+        "selectLevel": "स्तर चुनें",
+        "endlessZen": "असीम शांति",
+        "createLevel": "स्तर बनाएँ",
+        "options": "विकल्प",
+        "gitHub": "दस्तावेज़ खोलें\n (GitHub)"
+      },
+      "game": {
+        "ui": {
+          "mode": "मोड: संपादक",
+          "movesRemain": "शेष चालें:",
+          "movesUsed": "प्रयोग की गई चालें:",
+          "targetColor": "सभी ग्रिड को इस रंग में बदलें",
+          "targetColorEditor": "लक्ष्य रंग:",
+          "movesCount": "चालों की संख्या:",
+          "resetBtn": "रीसेट करें",
+          "export": "निर्यात करें",
+          "tools": "उपकरण"
+        },
+        "tools": {
+          "verticalSwap": "ऊर्ध्वाधर अदला-बदली",
+          "horizontalSwap": "क्षैतिज अदला-बदली",
+          "allwaySwap": "सभी दिशाओं में अदला-बदली"
+        }
+      },
+      "levelEditor": {
+        "folderName": "ग्रिड विकल्प",
+        "gridColumns": "स्तंभ:",
+        "gridRows": "पंक्तियाँ:",
+        "gridColor": "भराव रंग"
+      },
+      "resultScreen": {
+        "win": "स्तर पूर्ण हुआ",
+        "time": "समय:",
+        "btnMain": "मुख्य मेनू",
+        "btnNext": "अगला स्तर",
+        "btnShare": "साझा करें",
+        "movesUsed": "प्रयोग की गई चालें"
+      },
+      "options": {
+        "btnSave": "सहेजें",
+        "btnReset": "रीसेट करें",
+        "tabs": {
+          "general": "सामान्य",
+          "colors": "रंग",
+          "gameplay": "गेमप्ले"
+        },
+        "colorsTab": {
+          "folderName": "रंग अनुकूलन"
+        },
+        "generalTab": {
+          "languageBlock": "भाषा",
+          "languageSelection": "भाषा चयन",
+          "background": "पृष्ठभूमि",
+          "image": "छवि",
+          "distortion": "विकृति",
+          "overlay": "ओवरले"
+        },
+        "gameplayTab": {
+          "animationSpeed": "एनिमेशन गति",
+          "folderName": "ग्रिड विकल्प",
+          "highlightIntensity": {
+            "text": "हाइलाइट तीव्रता",
+            "options": [
+              "सामान्य",
+              "तेज"
+            ]
+          },
+          "fluidColors": {
+            "text": "बहते रंग",
+            "options": [
+              "बंद",
+              "चालू"
+            ]
+          },
+          "soundVolume": "ध्वनि स्तर"
+        },
+        "defaultToggle": [
+          "बंद",
+          "चालू"
+        ]
+      },
+      "import": "आयात करें",
+      "exportBlock": {
+        "title": "स्तर निर्यात करें",
+        "switch": {
+          "string": "स्ट्रिंग द्वारा",
+          "json": "JSON द्वारा"
+        },
+        "folders": {
+          "string": "स्ट्रिंग के रूप में निर्यात करें",
+          "json": "JSON के रूप में निर्यात करें"
+        },
+        "cancelBtn": "रद्द करें",
+        "copy": "क्लिपबोर्ड पर कॉपी करें"
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "overflowing_palette",
+  "description": "the puzzle 'Overflowing Palette' from Wuthering Waves as HTML5 Game",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XirTelan/overflowing_palette"
+  },
+  "author": "XirTelan (https://github.com/XirTelan)",
+  "license": "MIT",
+  "licenseUrl": "http://www.opensource.org/licenses/mit-license.php",
+  "bugs": {
+    "url": "https://github.com/XirTelan/overflowing_palette/issues"
+  },
+  "homepage": "https://xirtelan.github.io/overflowing_palette/",
+  "scripts": {
+    "dev": "node log.js dev & vite --config vite/config.dev.mjs",
+    "build": "node log.js build & vite build --config vite/config.prod.mjs",
+    "dev-nolog": "vite --config vite/config.dev.mjs",
+    "build-nolog": "vite build --config vite/config.prod.mjs",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "terser": "^5.31.0",
+    "typescript": "^5.4.5",
+    "vite": "^5.3.1"
+  },
+  "dependencies": {
+    "phaser": "^3.88.2"
+  }
+}
