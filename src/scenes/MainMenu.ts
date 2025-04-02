@@ -3,7 +3,7 @@ import { GameConfig, LanguageConfig } from "../types";
 import { MenuBtn } from "../classes/ui/MenuBtn";
 import { LevelSelection } from "../classes/MainMenu/LevelSelection/LevelSelection";
 import { MenuTab } from "../classes/MainMenu/MenuTab";
-// import { LevelEditor } from "../classes/MainMenu/LevelEditor";
+import { LevelEditor } from "../classes/MainMenu/LevelEditor";
 import { Options } from "../classes/MainMenu/Options/Options";
 import { Background } from "../classes/ui/Background";
 import { EndlessZen } from "../classes/MainMenu/EndlessZen";
@@ -23,10 +23,10 @@ const TABS: TabConfig[] = [
     },
     type: LevelSelection,
   },
-  // {
-  //   key: "LevelEditor",
-  //   type: LevelEditor,
-  // },
+  {
+    key: "LevelEditor",
+    type: LevelEditor,
+  },
   {
     key: "EndlessZen",
     type: EndlessZen,
@@ -118,10 +118,10 @@ export class MainMenu extends Scene {
         key: "EndlessZen",
         text: local.mainMenu.endlessZen,
       },
-      // {
-      //   key: "LevelEditor",
-      //   text: local.mainMenu.createLevel,
-      // },
+      {
+        key: "LevelEditor",
+        text: local.mainMenu.createLevel,
+      },
       {
         key: "Options",
         text: local.mainMenu.options,
