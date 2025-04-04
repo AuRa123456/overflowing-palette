@@ -144,8 +144,8 @@ export class Export {
       this.scene.gameStates.mode === GameMode.Endless
         ? this.scene.grid.defaultValues
         : this.scene.grid.board.map((cell) => {
-            return cell.map((cell) => cell.color);
-          });
+          return cell.map((cell) => cell.color);
+        });
 
     const jsonData: LevelData = {
       targetColor: this.scene.gameStates.targetColor,
