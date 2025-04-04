@@ -320,7 +320,7 @@ export class Game extends Scene {
       },
     });
 
-    Object.entries(availableTools).forEach(([key, data], index) => {
+    Object.entries(availableTools).forEach(([_, data], index) => {
       scene.make.text({
         x: 60,
         y: ui.tools.y + ui.tools.offset * index - 50,
